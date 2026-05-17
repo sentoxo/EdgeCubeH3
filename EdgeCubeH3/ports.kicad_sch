@@ -7633,6 +7633,16 @@
 		)
 		(uuid "0ae91b2f-2cdf-4b3b-8090-9ed0b8a015c0")
 	)
+	(label "USB2+"
+		(at 53.34 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d5778cf-f151-4d2c-8f21-c19327ac3b0e")
+	)
 	(label "GPDI_D2+"
 		(at 228.6 33.02 180)
 		(effects
@@ -7713,6 +7723,16 @@
 		)
 		(uuid "40a82ffd-6daa-46b4-aa2c-a006acd7e945")
 	)
+	(label "USB2-"
+		(at 53.34 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d9ba003-1ba4-46d7-886a-3ac35c82e4fb")
+	)
 	(label "GPDI_SCL"
 		(at 219.71 68.58 180)
 		(effects
@@ -7742,6 +7762,26 @@
 			(justify right bottom)
 		)
 		(uuid "69ac81f5-540b-452a-ad19-581cdf6ad7a6")
+	)
+	(label "USB1+"
+		(at 53.34 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ac48038-f8d0-4904-9c0a-3a530bda6760")
+	)
+	(label "USB1-"
+		(at 53.34 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "718cdfd4-3c36-46af-80c9-c45a1bceda51")
 	)
 	(label "EPHY_TX+"
 		(at 48.26 96.52 180)
@@ -8777,7 +8817,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "STA"
 			(at 76.962 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12117,7 +12157,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "PWR"
 			(at 76.962 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)

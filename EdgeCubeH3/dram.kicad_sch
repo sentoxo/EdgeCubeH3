@@ -4419,7 +4419,7 @@
 		(uuid "fbd6ebfa-eae4-4623-a525-9057b7bd2fe4")
 	)
 	(label "SDQ2"
-		(at 179.07 49.53 180)
+		(at 179.07 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,7 +4439,7 @@
 		(uuid "03770ad5-d8f4-4e6e-bd28-b3ef4dcba4e7")
 	)
 	(label "SDQ3"
-		(at 179.07 52.07 180)
+		(at 179.07 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4529,7 +4529,7 @@
 		(uuid "2aca05a8-d48b-4c3f-b9d9-9b260fde06ac")
 	)
 	(label "SDQ1"
-		(at 179.07 46.99 180)
+		(at 179.07 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4589,7 +4589,7 @@
 		(uuid "5166d40d-68e0-42f5-af7b-b46dee5a7b1c")
 	)
 	(label "SDQ0"
-		(at 179.07 44.45 180)
+		(at 179.07 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4609,7 +4609,7 @@
 		(uuid "5d5f6bdf-a639-4af4-9328-0e27dbddcbf7")
 	)
 	(label "SDQ9"
-		(at 179.07 67.31 180)
+		(at 179.07 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4629,7 +4629,7 @@
 		(uuid "61e99488-fc2a-4d21-99a8-a923c5a08344")
 	)
 	(label "SDQ11"
-		(at 179.07 72.39 180)
+		(at 179.07 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4639,7 +4639,7 @@
 		(uuid "68fee37e-694e-465c-b408-301c7612aa31")
 	)
 	(label "SDQ7"
-		(at 179.07 62.23 180)
+		(at 179.07 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4689,7 +4689,7 @@
 		(uuid "73ac5a30-1295-4fd1-907c-b130790c6e0f")
 	)
 	(label "SDQ5"
-		(at 179.07 57.15 180)
+		(at 179.07 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4709,7 +4709,7 @@
 		(uuid "77039876-017b-4525-b793-30bec31886b6")
 	)
 	(label "SDQ12"
-		(at 179.07 74.93 180)
+		(at 179.07 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4769,7 +4769,7 @@
 		(uuid "8c7523df-f4e8-4e21-8a43-4a25176f0ef9")
 	)
 	(label "SDQ6"
-		(at 179.07 59.69 180)
+		(at 179.07 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4819,7 +4819,7 @@
 		(uuid "a7196183-dbff-4b2f-99fc-da51379fbf8c")
 	)
 	(label "SDQ15"
-		(at 179.07 82.55 180)
+		(at 179.07 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4829,7 +4829,7 @@
 		(uuid "af38180f-4672-4ed0-b77d-552b6ef8716d")
 	)
 	(label "SDQ8"
-		(at 179.07 64.77 180)
+		(at 179.07 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4859,7 +4859,7 @@
 		(uuid "bb737d7b-4e64-4b29-95fe-2fe00b1ef52a")
 	)
 	(label "SDQ14"
-		(at 179.07 80.01 180)
+		(at 179.07 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4899,7 +4899,7 @@
 		(uuid "e3b4708d-294b-449e-96ed-d5f1ee477c2c")
 	)
 	(label "SDQ4"
-		(at 179.07 54.61 180)
+		(at 179.07 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7607,7 +7607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.96 154.178 90)
 			(hide yes)
 			(show_name no)
