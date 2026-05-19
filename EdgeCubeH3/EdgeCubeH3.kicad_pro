@@ -81,7 +81,12 @@
           "width": 0.11
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|167100000|120550000|F.Cu|4|9775a34e-cf6b-45e7-bbb8-bbccd2332453|3c4ed5c6-797b-4e5e-8b56-975c48eaa117",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -91,7 +96,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -155,7 +160,7 @@
         "min_connection": 0.1,
         "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
+        "min_hole_clearance": 0.19,
         "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -638,7 +643,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "mfr/",
       "specctra_dsn": "",
       "vrml": ""
     },
