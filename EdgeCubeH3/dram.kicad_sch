@@ -2836,6 +2836,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Termination under dram chip"
+		(exclude_from_sim no)
+		(at 193.294 154.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a846a386-705a-4b89-bdfa-d10ca53e8102")
+	)
 	(text "NOR FLASH (OPTIONAL)"
 		(exclude_from_sim no)
 		(at 56.388 67.818 0)
@@ -3870,7 +3880,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 152.4) (xy 184.15 152.4)
+			(xy 185.42 151.13) (xy 189.23 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4370,7 +4380,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 152.4) (xy 194.31 152.4)
+			(xy 196.85 151.13) (xy 199.39 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4509,7 +4519,7 @@
 		(uuid "1d1aacc7-d0c7-4227-8c42-aa01f5acef97")
 	)
 	(label "SCK-"
-		(at 194.31 152.4 0)
+		(at 199.39 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4799,7 +4809,7 @@
 		(uuid "9a459bcc-1944-4805-8f45-cfe1a5a7c2dc")
 	)
 	(label "SCK+"
-		(at 180.34 152.4 180)
+		(at 185.42 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7577,7 +7587,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 187.96 152.4 90)
+		(at 193.04 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7588,7 +7598,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9901961-9867-4958-98f2-f8ac8fa021ee")
 		(property "Reference" "R5"
-			(at 187.96 146.05 90)
+			(at 193.04 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7598,7 +7608,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 187.96 148.59 90)
+			(at 193.04 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7608,7 +7618,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 187.96 154.178 90)
+			(at 193.04 152.908 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7619,7 +7629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 152.4 0)
+			(at 193.04 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7630,7 +7640,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 152.4 0)
+			(at 193.04 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
