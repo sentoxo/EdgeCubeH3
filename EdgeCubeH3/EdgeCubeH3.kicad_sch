@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "EdgeCubeH3")
-		(date "2026-05-07")
-		(rev "0.1")
+		(date "2026-05-21")
+		(rev "rev.A")
 		(company "github.com/sentoxo/EdgeCubeH3")
 		(comment 2 "Compatibilie with Orange Pi One OS's likes Armbian.")
 		(comment 3 "Custom, cheap, simple and hand-solder single-board computer with allwinner H3 CPU. ")

@@ -3,6 +3,8 @@ Work in proggress
 
 Custom, cheap, simple and hand-solder single-board computer with allwinner H3 CPU. Compatibilie with Orange Pi One OS's likes Armbian.
 
+![board2 image](board2.png)
+
 ![board image](board.png)
 
 ## Features

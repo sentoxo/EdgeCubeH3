@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 0,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.2,
+          "corner_radius": 0.5,
           "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.3,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -228,6 +228,7 @@
         0.5,
         0.75,
         1.0,
+        1.5,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -279,7 +280,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1"
+      "sch_revision": "rev.A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -825,7 +826,7 @@
         "uuid": "36b001b0-3d06-4fed-b406-d82b909f7864"
       }
     ],
-    "used_designators": "C45",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

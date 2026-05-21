@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "EdgeCubeH3")
-		(date "2026-05-07")
-		(rev "0.1")
+		(date "2026-05-21")
+		(rev "rev.A")
 		(company "github.com/sentoxo/EdgeCubeH3")
 	)
 	(lib_symbols

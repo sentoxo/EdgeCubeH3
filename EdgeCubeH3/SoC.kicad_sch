@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "EdgeCubeH3")
-		(date "2026-05-07")
-		(rev "0.1")
+		(date "2026-05-21")
+		(rev "rev.A")
 		(company "github.com/sentoxo/EdgeCubeH3")
 	)
 	(lib_symbols
@@ -55814,12 +55814,6 @@
 		(uuid "367fa8e1-fee2-4633-8021-e5d33e05c9ae")
 	)
 	(junction
-		(at 364.49 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "383210b1-3f44-4139-8c98-13a6203c1143")
-	)
-	(junction
 		(at 387.35 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -55926,6 +55920,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8540af49-5184-4d69-bb22-343beef6ed98")
+	)
+	(junction
+		(at 364.49 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85e1f600-063c-46d7-a06e-0d70b22938d5")
 	)
 	(junction
 		(at 379.73 110.49)
@@ -57244,6 +57244,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 26.67) (xy 364.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033cf075-d425-43cb-928c-526f649ea7f3")
+	)
+	(wire
+		(pts
 			(xy 387.35 118.11) (xy 394.97 118.11)
 		)
 		(stroke
@@ -57704,7 +57714,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 24.13) (xy 368.3 24.13)
+			(xy 364.49 26.67) (xy 368.3 26.67)
 		)
 		(stroke
 			(width 0)
@@ -58484,16 +58494,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 24.13) (xy 364.49 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ffc2f21-05bb-4626-9be6-21a613abcab2")
-	)
-	(wire
-		(pts
 			(xy 40.64 53.34) (xy 49.53 53.34)
 		)
 		(stroke
@@ -58631,6 +58631,16 @@
 			(type default)
 		)
 		(uuid "94c83eeb-b432-4dfb-9d5f-f16de9de3a95")
+	)
+	(wire
+		(pts
+			(xy 364.49 17.78) (xy 364.49 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959ca7eb-370d-4dce-a2a8-4d70e8943774")
 	)
 	(wire
 		(pts
@@ -64601,7 +64611,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 368.3 31.75 0)
+		(at 368.3 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -64611,7 +64621,7 @@
 		(dnp no)
 		(uuid "3530ef3e-a92f-44c3-8394-3abb40589857")
 		(property "Reference" "#PWR058"
-			(at 368.3 38.1 0)
+			(at 368.3 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64622,7 +64632,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 368.3 35.56 0)
+			(at 368.3 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64632,7 +64642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 31.75 0)
+			(at 368.3 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64643,7 +64653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 31.75 0)
+			(at 368.3 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64654,7 +64664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 31.75 0)
+			(at 368.3 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66447,7 +66457,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 368.3 27.94 0)
+		(at 368.3 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -66457,7 +66467,7 @@
 		(dnp no)
 		(uuid "5cf06c40-619c-4d59-bb47-04890b3bb509")
 		(property "Reference" "C39"
-			(at 369.316 25.654 0)
+			(at 369.316 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -66468,7 +66478,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 369.316 30.48 0)
+			(at 369.316 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -66479,7 +66489,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 369.2652 31.75 0)
+			(at 369.2652 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66490,7 +66500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 27.94 0)
+			(at 368.3 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66501,7 +66511,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 368.3 27.94 0)
+			(at 368.3 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68184,6 +68194,85 @@
 			(project "EdgeCubeH3"
 				(path "/36b001b0-3d06-4fed-b406-d82b909f7864/342a6ee4-1ac6-4677-8762-5b9ce3280011"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 364.49 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79ca0085-7ce9-47ce-82f2-84da66d45213")
+		(property "Reference" "R47"
+			(at 367.03 23.114 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2R2"
+			(at 362.204 22.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 362.712 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 364.49 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf96c76f-033f-4dc3-8cb0-8a18d79f3d21")
+		)
+		(pin "2"
+			(uuid "3225b0c5-8a72-48de-bfd8-6b86721323e4")
+		)
+		(instances
+			(project "EdgeCubeH3"
+				(path "/36b001b0-3d06-4fed-b406-d82b909f7864/342a6ee4-1ac6-4677-8762-5b9ce3280011"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -71464,10 +71553,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0b74de7-93b4-450b-86a6-db18cf582345")
 		(property "Reference" "U1"
-			(at 55.88 222.25 0)
+			(at 62.484 229.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -76203,7 +76291,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 364.49 24.13 0)
+		(at 364.49 17.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -76213,7 +76301,7 @@
 		(dnp no)
 		(uuid "fe45fffa-2d72-4d82-9a4e-b1589eb9383f")
 		(property "Reference" "#PWR051"
-			(at 364.49 27.94 0)
+			(at 364.49 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76224,7 +76312,7 @@
 			)
 		)
 		(property "Value" "+1V2"
-			(at 361.95 19.812 0)
+			(at 361.95 13.462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -76235,7 +76323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.49 24.13 0)
+			(at 364.49 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76246,7 +76334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 24.13 0)
+			(at 364.49 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76257,7 +76345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 364.49 24.13 0)
+			(at 364.49 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
