@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 0,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
-          "corner_smoothing": 1,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -62,10 +62,10 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.3,
-          "pad_connection": 2,
+          "min_thickness": 0.25,
+          "pad_connection": 3,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.4,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -83,7 +83,7 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|167100000|120550000|F.Cu|4|9775a34e-cf6b-45e7-bbb8-bbccd2332453|3c4ed5c6-797b-4e5e-8b56-975c48eaa117",
+          "unconnected_items|166150000|122800000|F.Cu|4|3c4ed5c6-797b-4e5e-8b56-975c48eaa117|9775a34e-cf6b-45e7-bbb8-bbccd2332453",
           ""
         ]
       ],
@@ -826,7 +826,7 @@
         "uuid": "36b001b0-3d06-4fed-b406-d82b909f7864"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J2",
     "variants": []
   },
   "sheets": [
